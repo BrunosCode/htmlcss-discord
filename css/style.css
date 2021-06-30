@@ -11,6 +11,18 @@
     margin: auto
 }
 
+.center {
+    position: relative;
+    width: 50%;
+    height: 50%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -27,12 +39,17 @@ a {
     padding: .5em 1em;
     border-radius: 2em;
 }
+.btn-black {
+    background-color: #23272A;
+    color: white;
+}
 
 /* header  */
 header {
     position: fixed;
     width: 100%;
     background-color: #3161E0;
+    z-index: 10;
 }
 header div {
     height: 70px;
@@ -58,5 +75,29 @@ header div {
 
 .nav-btn {
     float: right;
+}
 
+
+/* hero section  */
+.hero {
+    height: 600px;
+    width: 100%;
+    padding-top: 70px;
+
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    color: white;
+}
+h1 {
+    font-size: 3em;
+}
+p {
+    margin: 2em 0 1.5em;
+}
+.buttons .btn:first-child {
+    margin-right: 1.5em;
 }
