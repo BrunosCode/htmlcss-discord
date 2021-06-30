@@ -211,3 +211,16 @@ footer li {
 footer h2, footer h4 {
     color: #7289DA;
 }
+
+/* footer last section  */
+.last-section {
+    padding-top: 1.5em;
+    border-top: solid 1px #7289DA;
+    margin-top: 2em;
+}
+.footer-logo {
+    float: left;
+}
+.footer-buttons {
+    float: right;
+}
