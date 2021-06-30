@@ -53,22 +53,28 @@ header {
     position: fixed;
     width: 100%;
     background-color: #3161E0;
-    z-index: 10;
+    z-index: 2;
 }
-header div {
-    height: 70px;
+header .container {
+    position: relative;
 }
 
 .nav-logo {
-    float: left;
+    /* float: left; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
 }
 
 .main-nav {
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
 .main-nav li {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 1.5em;
 }
 .main-nav li:last-child {
     margin-right: 0;
@@ -76,11 +82,25 @@ header div {
 .main-nav a {
     color: #fff;
     font-size: .875em;
+
+    line-height: 4em;
+    vertical-align: middle;
 }
 
 .nav-btn {
-    float: right;
+    /* float: right; */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /* width: 20%; */
     font-size: .75em;
+
+    text-align: right;
+}
+.nav-btn a {
+    line-height: 4em;
+    vertical-align: baseline;
 }
 
 
@@ -127,8 +147,4 @@ p {
 .img-right .section-text {
     float: left;
     width: 40%;
-}
-
-section {
-    padding: 50px 0;
 }
