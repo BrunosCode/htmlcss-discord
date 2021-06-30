@@ -108,3 +108,23 @@ p {
 .buttons .btn:first-child {
     margin-right: 1.5em;
 }
+
+/* section's floats */
+.img-left img {
+    float: left;
+}
+.img-left .section-text {
+    float: right;
+}
+
+.img-right img {
+    float: right
+}
+.img-right .section-text {
+    float: left;
+}
+
+
+section {
+    padding: 30px 0;
+}
