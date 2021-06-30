@@ -4,3 +4,59 @@
     padding: 0;
     margin: 0;
 }
+
+/* common */
+.container {
+    width: 80%;
+    margin: auto
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: .5em 1em;
+    border-radius: 2em;
+}
+
+/* header  */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #3161E0;
+}
+header div {
+    height: 70px;
+}
+
+.nav-logo {
+    float: left;
+}
+
+.main-nav {
+    text-align: center;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 1em;
+}
+.main-nav li:last-child {
+    margin-right: 0;
+}
+.main-nav a {
+    color: #fff;
+}
+
+.nav-btn {
+    float: right;
+
+}
