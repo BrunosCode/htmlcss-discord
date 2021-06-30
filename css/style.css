@@ -12,7 +12,8 @@ body {
 
 .container {
     width: 80%;
-    margin: auto
+    max-width: 1000px;
+    margin: auto;
 }
 
 .center {
@@ -112,19 +113,22 @@ p {
 /* section's floats */
 .img-left img {
     float: left;
+    width: 50%;
 }
 .img-left .section-text {
     float: right;
+    width: 40%;
 }
 
 .img-right img {
-    float: right
+    float: right;
+    width: 50%;
 }
 .img-right .section-text {
     float: left;
+    width: 40%;
 }
 
-
 section {
-    padding: 30px 0;
+    padding: 50px 0;
 }
