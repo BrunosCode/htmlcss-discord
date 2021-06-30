@@ -99,9 +99,11 @@ header div {
 }
 h1 {
     font-size: 3em;
+    font-weight: 900;
 }
 p {
     margin: 2em 0 1.5em;
+    line-height: 1.5em;
 }
 .buttons .btn:first-child {
     margin-right: 1.5em;
